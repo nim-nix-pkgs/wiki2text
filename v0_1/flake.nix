@@ -10,7 +10,7 @@
   inputs.src-wiki2text-v0_1.flake = false;
   inputs.src-wiki2text-v0_1.ref   = "refs/tags/v0.1";
   inputs.src-wiki2text-v0_1.owner = "rspeer";
-  inputs.src-wiki2text-v0_1.repo  = "wiki2text.git";
+  inputs.src-wiki2text-v0_1.repo  = "wiki2text";
   inputs.src-wiki2text-v0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
